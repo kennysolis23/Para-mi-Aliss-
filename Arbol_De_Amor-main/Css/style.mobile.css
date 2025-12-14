@@ -32,12 +32,11 @@ body {
 
 .dedication-text {
   position: absolute;
-  font-weight: 500 ;
   top: 7vw;
   left: 50%;
   transform: translateX(-50%);
   max-width: 92vw;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   text-align: center;
   color: #000000;
   font-family: 'Courier New', Courier, monospace;

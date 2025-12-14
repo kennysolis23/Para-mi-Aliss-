@@ -80,7 +80,7 @@ function showDedicationText() { //seguidores
     if (i <= text.length) {
       container.textContent = text.slice(0, i);
       i++;
-      setTimeout(type, text[i - 2] === '\n' ? 350 : 35);
+      setTimeout(type, text[i - 2] === '\n' ? 350 : 30);
     } else {
       // Al terminar el typing, mostrar la firma animada
       setTimeout(showSignature, 600);
